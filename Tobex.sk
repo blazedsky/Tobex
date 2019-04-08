@@ -1,0 +1,241 @@
+# ╔═════════════════════════════════════════════════════════════╗
+#
+#               ✖ SkyMC/BlazedMC Buycraft Broadcast ✖
+#                         ✖ Tobex events ✖
+#
+# ╚═════════════════════════════════════════════════════════════╝
+
+options:
+	upgrade: §9§lUpgrade
+	lto: §c§lSky§4§lMC
+	lto.type: Tag
+	p: §8»
+	
+	upgrade2: &e&lU&9&lpgrade
+	upgrade3: &6&lU&e&lp&9&lgrade
+	upgrade4: &9&lU&6&lp&e&lg&9&lrade
+	upgrade5: &9&lUp&6&lg&e&lr&9&lade
+	upgrade6: &9&lUpg&6&lr&e&la&9&lde
+	upgrade7: &9&lUpgr&6&la&e&ld&9&le
+	upgrade8: &9&lUpgra&6&ld&e&le
+	upgrade9: &9&lUpgrad&6&le
+	
+variables:
+
+command /§tobexbc [<text>] [<text>]:
+	trigger:
+		make all players execute "/§tobex %arg 1% %arg 2%"
+		
+		
+command /§tobex [<text>] [<text>]:
+	trigger:
+		if arg 2 is "vip":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &2&lVIP &fRank !" for 5 seconds 
+		if arg 2 is "mvp":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &6&lMVP &fRank !" for 5 seconds
+		if arg 2 is "diamond":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &9&lDiamond &fRank !" for 5 seconds
+			
+			
+		if arg 2 is "legendary":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			make all players execute "/§fw"
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade2}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick
+			send player title "{@upgrade3}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade4}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade5}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade6}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade7}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade8}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade9}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 10 seconds with 0 second fade in and 0 second fade out
+			wait 3 tick 
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &5&lLegendary &fRank !" for 3 seconds with 0 second fade in and 2 second fade out
+
+			
+		if arg 2 is "java":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &f&lJava &fTag !" for 10 seconds 
+		if arg 2 is "blazedsky":
+			send player title "{@upgrade}" with subtitle "" for 10 seconds 
+		if arg 2 is "skymc":
+			send player title "{@upgrade}" with subtitle "" for 10 seconds 
+		if arg 2 is "php":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &2&lPHP &fTag !" for 10 seconds 
+		if arg 2 is "skript":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &6&lSkript &fTag !" for 10 seconds 
+			
+			
+		if arg 2 is "lto":
+			send player title "{@upgrade}" with subtitle "%arg 1% got the &nLimited Time&r {@lto} &f{@lto.type} !"
+			
+			
+command /§fw:
+	trigger:
+		launch "BURST" firework at location of player timed 0 coloured "blue"
+		wait 1 tick
+		launch "BURST" firework at location of player timed 0 coloured "red"
+		wait a second
+		launch "BURST" firework at location of player timed 0 coloured "purple"
+		wait 1 tick 
+		launch "BURST" firework at location of player timed 0 coloured "blue"
+		wait a second
+		launch "BURST" firework at location of player timed 0 coloured "red"
+		wait 1 tick 
+		launch "BURST" firework at location of player timed 0 coloured "purple"
+		wait 1 second
+		launch "BURST" firework at location of player timed 0 coloured "blue"
+		wait 1 tick
+		launch "BURST" firework at location of player timed 0 coloured "red"
+		wait a second
+		launch "BURST" firework at location of player timed 0 coloured "purple"
+		wait 1 tick 
+		launch "BURST" firework at location of player timed 0 coloured "blue"
+		wait a second
+		launch "BURST" firework at location of player timed 0 coloured "red"
+		wait 1 tick 
+		launch "BURST" firework at location of player timed 0 coloured "purple"
+		wait 1 second 
+		launch "BURST" firework at location of player timed 0 coloured "blue"
+		wait 1 tick
+		launch "BURST" firework at location of player timed 0 coloured "red"
+		wait a second
+		launch "BURST" firework at location of player timed 0 coloured "purple"
+		wait 1 tick 
+		launch "BURST" firework at location of player timed 0 coloured "blue"
+		wait a second
+		launch "BURST" firework at location of player timed 0 coloured "red"
+		wait 1 tick 
+		launch "BURST" firework at location of player timed 0 coloured "purple"
